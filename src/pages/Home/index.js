@@ -17,6 +17,7 @@ const Home = () => {
 
     return (
         <div>
+            <h1>batataaaa</h1>
             <Button name="Abrir" onClick={verificar} />
             <Sidebar
                 open={open}
