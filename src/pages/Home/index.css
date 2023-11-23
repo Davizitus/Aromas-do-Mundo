@@ -50,9 +50,24 @@ font-family: 'Italianno', cursive;
     color: #fff;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer;  
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: 5000px;
+    right: 30px;
 }
 
 .sidebar button:hover {
-    background-color: #77491d;
+    background-color: #794414;
+}
+
+#butao{
+  background-color:  #ac6727;
+  color: white;
+  width: 15%;
+  height: 23px;
+}
+
+#butao:hover{
+  background-color: #794414;
 }

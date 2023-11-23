@@ -17,8 +17,9 @@ const Home = () => {
 
     return (
         <div>
-          
-            <Button name="Abrir" onClick={verificar} />
+            
+            <Button id={"butao"} name="Abrir" onClick={verificar} />
+           
             <Sidebar
                 open={open}
                 onClose={verificar}
@@ -44,6 +45,7 @@ const Home = () => {
                     </Link>
                 </>
                 } />
+                <img src /> 
             <H1 mensage="Aromas do Mundo"/>
         </div>
     )

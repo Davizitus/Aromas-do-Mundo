@@ -1,6 +1,5 @@
 import Button from "../Button";
 import React from "react";
-
 const SideBar = ({ open, onClose, conteudo }) => {
 
     return (
