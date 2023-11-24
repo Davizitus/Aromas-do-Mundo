@@ -1,4 +1,5 @@
 import "./index.css"
+import H2 from "../../components/H2";
 const Doces = () => {
     const Doce = [
         { nome: "Gelato Del Peppo", preco: "R$31", descricao: "Sorvete de cheesecake de frutas vermelhas com renda de amêndoas e calda de frutas vermelhas", imagem : "https://media-cdn.tripadvisor.com/media/photo-s/02/bd/c4/c5/peppo.jpg" },
@@ -16,6 +17,7 @@ const Doces = () => {
 
     return (
         <div>
+            <H2 mensage="Doces"  />
             <ul>
                 {Doce.map((Doce, index) => (
                     <li key={index}>
