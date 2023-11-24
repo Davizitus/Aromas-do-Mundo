@@ -1,6 +1,6 @@
 const Doces = () => {
     const Doce = [
-        { nome: "Gelato Del Peppo", preco: "R$31", descricao: "Sorvete de cheesecake de frutas vermelhas com renda de amêndoas e calda de frutas vermelhas" },
+        { nome: "Gelato Del Peppo", preco: "R$31", descricao: "Sorvete de cheesecake de frutas vermelhas com renda de amêndoas e calda de frutas vermelhas", imagem : "https://media-cdn.tripadvisor.com/media/photo-s/02/bd/c4/c5/peppo.jpg" },
         { nome: "Petit Gateau Con Gelato Vaniglia", preco: "R$31", descricao: "Petit Gâteau com sorvete de creme | Opções: Chocolate, doce de leite, doce de leite com recheio de chocolate" },
         { nome: "Charlotte Di Cioccolato e Noci", preco: "R$31", descricao: "Torta de chocolate com nozes" },
         { nome: "Gelato Di Formaggi", preco: "R$29", descricao: "Sorvete de queijo com calda quente de goiabada" },
@@ -21,6 +21,8 @@ const Doces = () => {
                         Nome: {Doce.nome},
                         Preço: {Doce.preco},
                         Pescrição: {Doce.descricao}
+                        <br></br>
+                        <img className="comida" src={Doce.imagem} alt={Doce.nome} />
                     </li>
                 ))}
             </ul>
