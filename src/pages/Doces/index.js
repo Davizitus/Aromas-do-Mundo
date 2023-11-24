@@ -1,15 +1,16 @@
+import "./index.css"
 const Doces = () => {
     const Doce = [
         { nome: "Gelato Del Peppo", preco: "R$31", descricao: "Sorvete de cheesecake de frutas vermelhas com renda de amêndoas e calda de frutas vermelhas", imagem : "https://media-cdn.tripadvisor.com/media/photo-s/02/bd/c4/c5/peppo.jpg" },
-        { nome: "Petit Gateau Con Gelato Vaniglia", preco: "R$31", descricao: "Petit Gâteau com sorvete de creme | Opções: Chocolate, doce de leite, doce de leite com recheio de chocolate" },
-        { nome: "Charlotte Di Cioccolato e Noci", preco: "R$31", descricao: "Torta de chocolate com nozes" },
-        { nome: "Gelato Di Formaggi", preco: "R$29", descricao: "Sorvete de queijo com calda quente de goiabada" },
-        { nome: "Banana Flambata Con Gelato di Vaniglia", preco: "R$31", descricao: "Banana flambada com sorvete de creme" },
-        { nome: "Crema Di Papaya", preco: "R$29", descricao: "Creme de Papaya com licor de cassis" },
-        { nome: "Tiramisù", preco: "R$31", descricao: "Tradicional sobremesa italiana com mascarpone, biscoito champanhe, café, conhaque e chocolate em pó" },
-        { nome: "Pudin de Sorvete", preco: "R$29", descricao: "Também conhecido como pudim de sorvete, ele tem calda de caramelo e calda de chocolate." },
-        { nome: "Cannoli Recheado", preco: "R$9", descricao: "Uma explosão de sabor em cada mordida, com casquinha crocante recheada com ricota, chocolate e frutas cristalizadas." },
-        { nome: "Panna Cotta de Frutas Vermelhas", preco: "R$11", descricao: "Uma sobremesa sedosa e refrescante, coberta com um coulis de frutas vermelhas." }
+        { nome: "Petit Gateau Con Gelato Vaniglia", preco: "R$31", descricao: "Petit Gâteau com sorvete de creme | Opções: Chocolate, doce de leite, doce de leite com recheio de chocolate", imagem: "https://i.pinimg.com/564x/b0/d4/f5/b0d4f5f7452b5fb082f24d90e9d07227.jpg" },
+        { nome: "Charlotte Di Cioccolato e Noci", preco: "R$31", descricao: "Torta de chocolate com nozes", imagem: "https://i.pinimg.com/564x/f0/9f/94/f09f946e79fec7607e92506c9eaed010.jpg" },
+        { nome: "Gelato Di Formaggi", preco: "R$29", descricao: "Sorvete de queijo com calda quente de goiabada", imagem: "https://lapercussi.com/website/wp-content/uploads/2021/07/gelato-di-formaggio-la-percussi.jpg" },
+        { nome: "Banana Flambata Con Gelato di Vaniglia", preco: "R$31", descricao: "Banana flambada com sorvete de creme", imagem: "https://media.gazetadopovo.com.br/bomgourmet/2014/07/bomgourmetotv0906-26-4768d280.jpg" },
+        { nome: "Crema Di Papaya", preco: "R$29", descricao: "Creme de Papaya com licor de cassis", imagem:"https://cooknenjoy.com/wp-content/uploads/2022/07/Creme-Papaya-01-1200x1200.jpg" },
+        { nome: "Tiramisù", preco: "R$31", descricao: "Tradicional sobremesa italiana com mascarpone, biscoito champanhe, café, conhaque e chocolate em pó", imagem: "https://italianismo.com.br/wp-content/uploads/2020/11/Tiramisu%CC%80.jpg" },
+        { nome: "Pudin de Sorvete", preco: "R$29", descricao: "Também conhecido como pudim de sorvete, ele tem calda de caramelo e calda de chocolate.", imagem: "https://melepimenta.com/wp-content/uploads/2022/12/Pudim-sorvete-sorvetao-como-fazer-Baixa-1.jpg" },
+        { nome: "Cannoli Recheado", preco: "R$9", Descricao: "Uma explosão de sabor em cada mordida, com casquinha crocante recheada com ricota, chocolate e frutas cristalizadas.", imagem: "https://padacon.com.br/wp-content/uploads/2018/05/CANNOLI-italia-web-adimix.jpg" },
+        { nome: "Panna Cotta de Frutas Vermelhas", preco: "R$11", descricao: "Uma sobremesa sedosa e refrescante, coberta com um coulis de frutas vermelhas.", imagem: "https://s2.glbimg.com/vFx4Otg9EjhrS6KJnL5Ut-w80Yk=/smart/e.glbimg.com/og/ed/f/original/2019/11/06/panacota_-_zillis.jpg" }
     ]
 
 
@@ -20,9 +21,9 @@ const Doces = () => {
                     <li key={index}>
                         Nome: {Doce.nome},
                         Preço: {Doce.preco},
-                        Pescrição: {Doce.descricao}
+                        Descrição: {Doce.descricao}
                         <br></br>
-                        <img className="comida" src={Doce.imagem} alt={Doce.nome} />
+                        <img className="doce" src={Doce.imagem} alt={Doce.nome} />
                     </li>
                 ))}
             </ul>
