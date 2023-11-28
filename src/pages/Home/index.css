@@ -15,9 +15,9 @@ body{
   background-attachment: fixed;
   }
 
-  #alinhar{
-   display: flex;
-    justify-content: center;
+  .alinhar{
+   
+    text-align: center;
   }
 
   H1{
@@ -71,4 +71,8 @@ font-family: 'Italianno', cursive;
 
 #butao:hover{
   background-color: #794414;
+}
+
+.aroma{
+  margin-left: 25%;
 }

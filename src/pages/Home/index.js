@@ -4,7 +4,7 @@ import H1 from "../../components/H1";
 import "./index.css"
 import { useState } from "react";
 import Sidebar from "../../components/sidebar";
-
+import aromas from "../../images/aromas.png"
 const Home = () => {
 
 
@@ -45,8 +45,10 @@ const Home = () => {
                     </Link>
                 </>
                 } />
-                <img src /> 
-            <H1 mensage="Aromas do Mundo"/>
+                <div className="alinhar">
+            <H1  mensage="Aromas do Mundo"/>
+            <img className="arom" src={aromas} />
+            </div>
         </div>
     )
 
