@@ -9,3 +9,13 @@
   h2{
     font-size: 40px;
   }
+
+  #button{
+    background-color:  #ac6727;
+    color: white;
+    width: 10%;
+    height: 30px;
+  }
+  #button:hover{
+    background-color: #794414;
+  }

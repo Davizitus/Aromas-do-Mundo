@@ -4,7 +4,8 @@ import H1 from "../../components/H1";
 import "./index.css"
 import { useState } from "react";
 import Sidebar from "../../components/sidebar";
-import aromas from "../../images/aromas.png"
+import aromas from "../../images/aromas.png";
+import H3 from "../../components/H3";
 const Home = () => {
 
 
@@ -47,8 +48,9 @@ const Home = () => {
                 } />
                 <div className="alinhar">
             <H1  mensage="Aromas do Mundo"/>
-            <img className="arom" src={aromas} />
+            <img className="arom" src={aromas} alt="Logo" />
             </div>
+            <H3 mensage="Feito por Davi e Eric" />
         </div>
     )
 

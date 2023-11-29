@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import "./index.css"
 import H2 from "../../components/H2";
+import Button from "../../components/Button";
 const Doces = () => {
     const Doce = [
         { nome: "Gelato Del Peppo", preco: "R$31", descricao: "Sorvete de cheesecake de frutas vermelhas com renda de amêndoas e calda de frutas vermelhas", imagem : "https://media-cdn.tripadvisor.com/media/photo-s/02/bd/c4/c5/peppo.jpg" },
@@ -29,6 +31,9 @@ const Doces = () => {
                     </li>
                 ))}
             </ul>
+            <Link to="/" >
+                <Button id={"button"} name="Home" />
+            </Link>
         </div>
     );
 }

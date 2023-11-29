@@ -7,4 +7,4 @@ const H3 = (props) =>{
     )
 }
 
-export default H3;
+export default H3

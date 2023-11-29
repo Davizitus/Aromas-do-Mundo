@@ -9,3 +9,15 @@
   h2{
     font-size: 40px;
   }
+
+  #button{
+    background-color:  #ac6727;
+    color: white;
+    width: 10%;
+    height: 30px;
+    margin-left: 45%;
+  }
+
+  #button:hover{
+    background-color: #794414;
+  }

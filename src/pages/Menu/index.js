@@ -1,4 +1,6 @@
 import "./index.css"
+import { Link } from "react-router-dom";
+import Button from "../../components/Button";
 const Menu = () => {
     const hostsClick = () => {
 
@@ -34,7 +36,9 @@ const Menu = () => {
                     </li>
                 ))}
             </ul>
-
+                    <Link to="/" >
+                        <Button id={"button"} name="Home" />
+                    </Link>
         </div>
     );
 };

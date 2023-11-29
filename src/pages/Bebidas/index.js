@@ -1,5 +1,8 @@
 import "./index.css"
 import H2 from "../../components/H2";
+import { Link } from "react-router-dom";
+import Button from "../../components/Button";
+
 const Bebidas = () => {
     const Bebida = [
         { nome: "Água", preco: "R$5", imagem: "https://drogariamoderna.vtexassets.com/arquivos/ids/251997/agua-crystal-s-gas-15ml_587745.jpg?v=638151218022670000" },
@@ -28,7 +31,9 @@ const Bebidas = () => {
                     </li>
                 ))}
             </ul>
-
+            <Link to="/">
+                <Button id={"button"} name="Home"  />
+            </Link>   
         </div>
     );
 }
